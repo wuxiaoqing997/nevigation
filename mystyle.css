@@ -1,0 +1,71 @@
+html,body,ul,li{
+	padding: 0;
+	margin: 0;
+}
+ul li {
+	list-style-type: none;
+}
+.wapper {
+	width: 1300px;
+	height: 400px;
+}
+.wapper li {
+	width: 140px;
+	height: 400px;
+	float: left;
+	overflow: hidden;
+	left: 0;
+}
+.wapper li a{
+	width: 140px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	text-decoration: none;
+}
+#img_1{
+	background-image: url(1.jpg);
+}
+#img_2{
+	background-image: url(2.jpg);
+}
+#img_3{
+	background-image: url(3.jpg);
+}
+#img_4{
+	background-image: url(4.jpg);
+}
+#img_5{
+	background-image: url(5.jpg);
+}
+.wapper img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.wapper span {
+	width: 140px;
+	height: 400px;
+	text-align: center;
+	font-size: 25px;
+	color: #ffffff;
+	text-decoration: none;
+	display: block;
+	padding-top: 180px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+.wapper .open {
+	width: 300px;
+}
+.wapper .hover {
+	width:300px;
+	transition: width 1s;
+	
+}
+.wapper .change
+{
+	font-size: 30px;
+}
